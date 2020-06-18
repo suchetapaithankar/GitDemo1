@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.qam.tests.HomePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="showNavigationMenu"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.qam.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
